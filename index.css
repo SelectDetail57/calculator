@@ -1,0 +1,39 @@
+html,
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.number-display {
+  display: grid;
+  grid-template-columns: 2fr;
+  width: 400px;
+  height: 30px;
+  text-align: right;
+  color: aliceblue;
+  background-color: black;
+  font-size: 24px;
+}
+
+.calc-body {
+  background-color: "";
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  width: 400px;
+  height: 400px;
+  background-blend-mode: color-burn;
+  border-radius: 3px;
+}
+
+.calc-body button.clear {
+  background-color: rgb(212, 218, 255);
+}
+
+.calc-body button {
+  background-color: rgb(181, 216, 203);
+}
